@@ -1,0 +1,136 @@
+#citation
+{
+	color: black;
+	text-align: center;
+	width: 100%
+}
+
+h2 
+{
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	text-shadow: 1px 1px 3px grey;
+}
+
+h3
+{
+	font-size: 30px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: grey;
+	padding: 8px;
+	text-align: center;
+	text-shadow: 3px 1px 0px white;
+	border: 3px groove grey;
+	width: auto;
+	border-radius: 10px;
+}
+
+@font-face 
+{
+    font-family: 'bitstream_vera_sans_monoOb';
+    src: url('police/bitstreamverasansmono_oblique_macroman/VeraMono-Italic-webfont.eot');
+    src: url('police/bitstreamverasansmono_oblique_macroman/VeraMono-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/bitstreamverasansmono_oblique_macroman/VeraMono-Italic-webfont.woff') format('woff'),
+         url('police/bitstreamverasansmono_oblique_macroman/VeraMono-Italic-webfont.ttf') format('truetype'),
+         url('police/bitstreamverasansmono_oblique_macroman/VeraMono-Italic-webfont.svg#bitstream_vera_sans_monoOb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body 
+{
+    background-image: url("image/white_leather.png");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: top right;
+	margin: 0%;
+	font-family: 'bitstream_vera_sans_monoOb', Arial, serif;
+}
+
+h1
+{
+	color: black;
+	text-align: center;
+	font-size: 50px; 
+	font-weight: bold;
+	text-shadow: 3px 3px 2px grey;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.liseret 
+{
+	position: absolute;
+    top: 0px;
+	background-image: url("image/congruent_outline.png");
+	background-position: top left;
+	float: left;
+	box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+	width:6%;
+	height:100%;
+	margin: 0px;
+}
+
+section 
+{
+	margin-left: 6%;
+}
+
+.photo
+{
+	border: 2px solid black;
+	box-shadow: 0 0 6px black;
+	border-radius: 8px;
+	margin-top: 0px;
+}
+
+.img 
+{
+	width: 100%;
+	text-align: center;
+	padding-top: 45px;
+}
+
+article
+{
+	display: inline-block;
+	vertical-align: top;	
+	width: 30%;
+	margin-top: 5%;
+	margin-left: 5%;
+	padding: 5px;
+	margin: 1%;
+}
+
+@media all and (max-width: 1024px)
+{
+	#citation
+	{
+	width:auto;
+	}
+	
+	h3
+	{
+	width:60%
+	}
+	
+	h1
+	{
+	text-align:center;
+	width:auto;
+	font-size:40px;
+	}	
+	
+	.liseret
+	{
+	display:none;
+	}	
+	
+	article
+	{
+	margin-bottom: 5px;
+	margin-left:0;
+	width: 90%;
+	height:auto;
+	float:left;
+	}
+}
