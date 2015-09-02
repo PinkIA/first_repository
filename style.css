@@ -66,7 +66,7 @@ h1
 	float: left;
 	box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.7);
 	width:6%;
-	height:100%;
+	height: 120%;
 	margin: 0px;
 }
 
@@ -87,7 +87,7 @@ section
 {
 	width: 100%;
 	text-align: center;
-	padding-top: 45px;
+	padding-top: 25px;
 }
 
 article
@@ -99,6 +99,13 @@ article
 	margin-left: 5%;
 	padding: 5px;
 	margin: 1%;
+}
+
+#contact
+{
+	color: black;
+	text-align: center;
+	width: 100%
 }
 
 @media all and (max-width: 1024px)
