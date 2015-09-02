@@ -14,7 +14,7 @@ h2
 
 h3
 {
-	font-size: 30px;
+	font-size: 25px;
 	font-family: Helvetica, Arial, sans-serif;
 	color: grey;
 	padding: 8px;
@@ -66,7 +66,7 @@ h1
 	float: left;
 	box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.7);
 	width:6%;
-	height: 120%;
+	height: 100%;
 	margin: 0px;
 }
 
@@ -87,7 +87,7 @@ section
 {
 	width: 100%;
 	text-align: center;
-	padding-top: 25px;
+	padding-top: 5px;
 }
 
 article
